@@ -9,18 +9,21 @@ Fejlesztés IntelliJ IDEA Community Edition
 
 Teszt adatbázis MySql. Paraméterek:
 
+```
 spring.datasource.url=jdbc:mysql://127.0.0.1:3306/test
 spring.datasource.username=root
 spring.datasource.password=
-
+```
 ## Build és Futtatás
 
 
 A projekt felépítése és futtatása:
 
-   ```bash
+bash
+```
    ./mvnw clean install
    ./mvnw spring-boot:run
+```
    
 A projekt alapértelmezett portja: localhost:8080
 
