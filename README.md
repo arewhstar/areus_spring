@@ -3,7 +3,7 @@
 
 ### Szükséges környezet
 
-JDK  **JDK 21** verzió telepítése szükséges. Használt JDK Oracle: (`jdk-21.0.5_linux-x64_bin`).
+**JDK 21** verzió telepítése szükséges. Használt JDK Oracle: (`jdk-21.0.5_linux-x64_bin`).
 
 Fejlesztés IntelliJ IDEA Community Edition
 
@@ -27,33 +27,30 @@ bash
    
 A projekt alapértelmezett portja: localhost:8080
 
-
-   
-
-##API Endpointok
+## API Endpointok
 Basic Auth szükséges.
 (username:admin, password:admin123)
-#POST /customers
+# POST /customers
 
 Új ügyfél létrehozása.
-#GET /customers
+# GET /customers
 
 Minden ügyfél lekérdezése.
-#GET /customers/{id}
+# GET /customers/{id}
 
 Egy ügyfél adatainak lekérése az id alapján.
-#PUT /customers/{id}
+# PUT /customers/{id}
 
 Ügyfél teljes frissítése. Az összes adatot meg kell adni.
-#PATCH /customers/{id}
+# PATCH /customers/{id}
 
 Ügyfél adatainak részleges frissítése. Csak a módosítani kívánt adatokat kell megadni.
-#DELETE /customers/{id}
+# DELETE /customers/{id}
 
 Ügyfél törlése az id alapján.
-#GET /customers/average-age
+# GET /customers/average-age
 
 Az összes ügyfél átlagos életkorának lekérdezése.
-#GET /customers/age-young
+# GET /customers/age-young
 
 A 18 és 40 év közötti ügyfelek listájának lekérése.
